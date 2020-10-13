@@ -1,0 +1,139 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#backgroundimage{
+    background-image: url("../imgs/background1.jpg");
+    height:100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+#backgroundimageaboutus{
+    background-image: url("../imgs/background2.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 100%;
+} 
+
+#backgroundimagesignup{
+    background-image: url("../imgs/background2.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+} 
+
+#backgroundimages2{
+    background-image: url("../imgs/background2.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+#backgroundimages3{
+    background-image: url("../imgs/background2.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    padding-bottom: 50%;
+}
+
+#firstrow{
+    padding-top: 15%;
+}
+
+#firstrowaboutus{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+#firstrowsignup{
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+#firstrowtrainee{
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+#bigscreenclients{
+    padding-bottom: 30%;
+}
+
+#smallscreenclients{
+    display: none;
+}
+
+@media screen and (max-width:1024px){
+    #backgroundimagesignup{
+        background-image: url("../imgs/background2.jpg");
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+        padding-top: 1%;
+        padding-bottom: 50%;
+    }
+
+    #backgroundimages2{
+        background-image: url("../imgs/background2.jpg");
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+        padding-top: 1%;
+        padding-bottom: 60%;
+    }
+
+    #backgroundimages3{
+        background-image: url("../imgs/background2.jpg");
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+        padding-bottom: 125%;
+    }
+
+
+}
+
+@media screen and (max-width:600px){
+
+    #bigscreenclients{
+        display: none;
+    }
+
+    #smallscreenclients{
+        display: block;
+    }
+
+    #backgroundimages3{
+        background-image: url("../imgs/background2.jpg");
+        background-position: center center;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #464646;
+        padding-bottom: 175%;
+    }
+
+}
